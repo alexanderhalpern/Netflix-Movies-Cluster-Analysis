@@ -173,6 +173,7 @@ fig.update_traces(hovertemplate="<br>".join([
     "<extra></extra>"
 ]))
 
-fig.update_layout(title='t-SNE Visualization with K-Means Clusters')
+fig.update_layout(
+    title='Netflix Movie Catalog Clustering (Similar Movies are Closer Together)')
 fig.show()
 fig.write_html("cluster_movies.html")
