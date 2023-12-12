@@ -1,5 +1,5 @@
 # Purpose: 
-Generate a graphical depiction of the Netflix Movie and TV Show in order to determine trends in the data and visualize which movie and TV-show categories are popular.
+Generate a graphical depiction of the Netflix Movie and TV Show in order to determine trends in the data and visualize which movie and TV-show categories are becoming increasingly popular.
 
 
 # Methodology:
