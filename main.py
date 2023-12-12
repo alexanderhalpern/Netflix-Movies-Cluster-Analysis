@@ -133,8 +133,8 @@ selected_df['overview'] = selected_df['overview'].apply(
 
 # Another part of the project was automatically generating cluster labels by passing
 # all of the movie descriptions to a large language model and telling it to come up with a category
-# header. I did this and saved the cluster number to category header mapping in a json file
-# This is how I grouped the movie descriptions by cluster number before passing them to the LLM:
+# header. A teammate did this and saved the cluster number to category header mapping in a JSON file
+# This is how I grouped the movie descriptions by cluster number before he passed them to the LLM:
 '''
 movie_descriptions_per_cluster = df.groupby(['cluster_numbers'], as_index=False).agg(
      {
