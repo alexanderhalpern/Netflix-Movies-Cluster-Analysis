@@ -1,5 +1,3 @@
-[View Netflix Movie Cluster](https://alexanderhalpern.github.io/Netflix-Movie-Cluster-HTML/)
 
-<iframe src="https://alexanderhalpern.github.io/Netflix-Movie-Cluster-HTML/" width="600" height="400" frameborder="0" allowfullscreen></iframe>
-
-{% include_relative cluster_movies.html %}
+![Cluster Analysis](https://i.imgur.com/5EMLB5F.png)
+[INTERACT WITH THE CLUSTER GRAPH HERE!](https://alexanderhalpern.github.io/Netflix-Movie-Cluster-HTML/)
