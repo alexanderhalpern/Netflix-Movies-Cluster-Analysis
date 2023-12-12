@@ -4,11 +4,12 @@ Generate a graphical depiction of the Netflix Movie and TV Show in order to dete
 
 # Methodology:
 Start by taking the description for each movie and TV show in the Netflix catalog and generate a numerical representation of each description 
-by using sentence embeddings. By representing each catalog entry with a vector, we can then cluster catalog entries based on their descriptions
-and then use dimensionality reduction so that we can plot movies in 2D space. 
+by using sentence embeddings. By representing each catalog entry with a vector of numbers, we can perform a cluster analysis on the catalog entries
+so that we can generate self-identified groupings of movies. After clustering, we can use dimensionality reduction to plot each movie description in 2D space. 
 
 # Explore the Results
-This means that when we look at the following cluster graph of the Netflix movies and TV Shows, similar movies will be closer together in space, and different movies will be far apart.
+When we look at the following cluster graph of the Netflix movies and TV Shows, similar movies will be closer together in space, and different movies will be far apart.
+Movies with the same color are part of the same self-identified grouping.
 
 [Interact with the Cluster Graph here!](https://alexanderhalpern.github.io/Netflix-Movie-Cluster-HTML/)
 [![Cluster Analysis](https://i.imgur.com/5EMLB5F.png)](https://alexanderhalpern.github.io/Netflix-Movie-Cluster-HTML/)
