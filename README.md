@@ -9,6 +9,7 @@ and then use dimensionality reduction so that we can plot movies in 2D space.
 
 # Explore the Results
 This means that when we look at the graph of movies, similar movies are closer together in space, and different movies are far apart.
+
 [Interact with the Cluster Graph here!](https://alexanderhalpern.github.io/Netflix-Movie-Cluster-HTML/)
 ![Cluster Analysis](https://i.imgur.com/5EMLB5F.png)
 
